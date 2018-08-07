@@ -117,6 +117,7 @@ android {
                 storePassword MYAPP_RELEASE_STORE_PASSWORD
                 keyAlias MYAPP_RELEASE_KEY_ALIAS
                 keyPassword MYAPP_RELEASE_KEY_PASSWORD
+                signingConfig signingConfigs.release
             }
         }
     }
