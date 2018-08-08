@@ -153,6 +153,13 @@ export default MyApp;
 ```js
 react-native bundle --platform android --entry-file index.js --bundle-output ./index.android.bundle --dev false
 ```
+###使用APP Center打包build
+```angular2html
+// 需要更改.gitignore配置文件
+// 复制release-key到android/app目录
+```
+![.gitignore](./gitignore.jpg)
+
 ###参考
 - [配置APPCenter](https://appcenter.ms)
 - [React Native 热更新Appcenter codepush,Android](https://www.jianshu.com/p/a09005ddf509)
